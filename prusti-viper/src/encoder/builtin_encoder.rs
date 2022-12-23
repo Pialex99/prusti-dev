@@ -8,7 +8,7 @@ use prusti_common::{vir_local, vir_expr};
 use vir_crate::polymorphic::{self as vir};
 use vir_crate::common::identifier::WithIdentifier;
 use super::high::builtin_functions::HighBuiltinFunctionEncoderInterface;
-use super::{versioning, resources};
+use super::versioning;
 
 const PRIMITIVE_VALID_DOMAIN_NAME: &str = "PrimitiveValidDomain";
 
